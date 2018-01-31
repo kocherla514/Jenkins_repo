@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
-import org.ravi.helooworld.Hello;
+import org.ravi.helloworld.Hello;
 
 public class HelloTest {
 
