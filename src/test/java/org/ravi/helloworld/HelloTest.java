@@ -41,8 +41,7 @@ public class HelloTest {
 	public void f1() {
 
 		Hello h1 = new Hello();
-		String x = h1.displayHelloMessage("sai");
-		Assert.assertEquals(x,"sai");
+		Assert.assertEquals(h1.displayHelloMessage("sai"),"sai");
 		System.out.println("Test Passed");
 
 	}
