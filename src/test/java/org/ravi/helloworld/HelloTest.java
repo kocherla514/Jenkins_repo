@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
-import org.ravi.helloworld.Hello;
+
 
 public class HelloTest {
 
@@ -37,14 +37,7 @@ public class HelloTest {
 
 	}
 
-	@Test
-	public void f1() {
-
-		Hello h1 = new Hello();
-		Assert.assertEquals(h1.displayHelloMessage("sai"),"sai");
-		System.out.println("Test Passed");
-
-	}
+	
 
 	@AfterTest
 	public void afterTest() {
