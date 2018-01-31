@@ -2,6 +2,9 @@ package org.ravi.helloworld;
 
 public class Hello {
 	
-	String val="sai";
+	public String displayHelloMessage(String message){
+		message = "hi";
+		return message;
+	}
 
 }
